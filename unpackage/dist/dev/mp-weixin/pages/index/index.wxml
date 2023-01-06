@@ -1,0 +1,1 @@
+<view class="content"><carousel vue-id="8dd740cc-1" bind:__l="__l"></carousel><search vue-id="8dd740cc-2" bind:__l="__l"></search><index-nav vue-id="8dd740cc-3" bind:__l="__l"></index-nav></view>

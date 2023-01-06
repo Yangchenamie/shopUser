@@ -1,0 +1,9 @@
+
+.content{
+  width: 100%;
+}
+.content swiper image {
+  width: 100%;
+  height: 400rpx;
+}
+

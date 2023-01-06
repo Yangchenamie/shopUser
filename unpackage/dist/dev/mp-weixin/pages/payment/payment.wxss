@@ -1,0 +1,129 @@
+
+.container.data-v-031d9d14 {
+  height: 100vh;
+  background-color: #efeef4;
+}
+.pay.data-v-031d9d14 {
+  display: flex;
+  width: 760rpx;
+  height: 300rpx;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.pay .defalut.data-v-031d9d14 {
+  font-size: 26rpx;
+}
+.money-box.data-v-031d9d14 {
+  margin-top: 20rpx;
+  font-weight: 600;
+  display: flex;
+}
+.money-box .money.data-v-031d9d14 {
+  font-size: 60rpx;
+}
+.money-box .sign.data-v-031d9d14 {
+  margin-top: 30rpx;
+}
+.choise.data-v-031d9d14 {
+  width: 760rpx;
+  height: 55rpx;
+  background-color: #fff;
+  border-bottom: 4rpx solid #ececec;
+}
+.choise ._p.data-v-031d9d14 {
+  text-indent: 1em;
+}
+.ways.data-v-031d9d14 {
+  background-color: #fff;
+  width: 760rpx;
+  border-bottom: 2rpx solid #ececec;
+}
+.way.data-v-031d9d14 {
+  display: flex;
+  justify-content: space-between;
+  padding: 20rpx 30rpx;
+}
+.way .way-left.data-v-031d9d14 {
+  display: flex;
+}
+.way .way-left image.data-v-031d9d14 {
+  width: 50rpx;
+  height: 50rpx;
+  margin-right: 10rpx;
+}
+.way .way-left .canuse.data-v-031d9d14 {
+  margin-left: 20rpx;
+  font-size: 26rpx;
+  color: #eb4958;
+  line-height: 46rpx;
+}
+.roll.data-v-031d9d14 {
+  width: 40rpx;
+  height: 40rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 2rpx solid #03bdf6;
+}
+.roll .roll-inset.data-v-031d9d14 {
+  width: 20rpx;
+  height: 20rpx;
+  border-radius: 50%;
+  background-color: #03bdf6;
+}
+.determine.data-v-031d9d14 {
+  margin: 0 auto;
+  width: 650rpx;
+  height: 80rpx;
+  margin-top: 60rpx;
+  color: #fff;
+  font-size: 26rpx;
+  line-height: 80rpx;
+  border-radius: 40rpx;
+  text-align: center;
+  background-color: #03bdf6;
+}
+.settingPassword.data-v-031d9d14 {
+  background-color: #4c4c4c;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+  top: 0;
+  width: 760rpx;
+  height: 100vh;
+}
+.setting.data-v-031d9d14 {
+  width: 600rpx;
+  border-radius: 20rpx;
+  height: 400rpx;
+  background-color: #fff;
+}
+.setting .setting-title.data-v-031d9d14 {
+  font-size: 36rpx;
+  margin-top: 40rpx;
+  text-align: center;
+  font-weight: 600;
+}
+.setting .illustrate.data-v-031d9d14 {
+  font-size: 26rpx;
+  margin-top: 20rpx;
+  color: #03bdf6;
+  text-align: center;
+}
+.setting .set.data-v-031d9d14,.done.data-v-031d9d14 {
+  width: 200rpx;
+  height: 60rpx;
+  margin: 100rpx auto;
+  color: #fff;
+  text-align: center;
+  line-height: 60rpx;
+  font-size: 28rpx;
+  background-color: #03bdf6;
+  border-radius: 40rpx;
+}
+

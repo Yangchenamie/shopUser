@@ -1,0 +1,1 @@
+<view class="content"><swiper indicator-dots="{{true}}" circular="{{true}}" autoplay="{{true}}"><swiper-item><image src="../../static/3.png"></image></swiper-item><swiper-item><image src="../../static/3.png"></image></swiper-item><swiper-item><image src="../../static/3.png"></image></swiper-item></swiper></view>
