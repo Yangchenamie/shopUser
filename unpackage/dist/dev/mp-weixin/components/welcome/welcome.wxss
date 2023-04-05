@@ -1,0 +1,23 @@
+
+.con-title{
+  width: 100%;
+  display: flex;
+  height: 160rpx;
+  font-size: 48rpx;
+  align-items: center;
+}
+.con-title image{
+  width: 100rpx;
+  height: 100rpx;
+  margin-left: 64rpx;
+  margin-right: 40rpx;
+}
+.con-text{
+  display: flex;
+  flex-flow: column;
+}
+.numRoot{
+  font-size: 28rpx;
+}
+
+

@@ -1,14 +1,9 @@
 <template>
   <view class="content">
-    <view class="con-title">
-      <image src="../../static/shoplogo.png" mode=""></image>
-      <view class="">
-        欢迎光临
-      </view>
-    </view>
+    
     <view class="con-sear">
       <image src="../../static/search.png" mode=""></image>
-      <input type="text" placeholder="搜索">
+      <input type="text" placeholder="搜索" @click="goto">
     </view>
   </view>
 </template>
@@ -20,31 +15,26 @@
       return {
         
       };
+    },
+    methods:{
+      goto(){
+        console.log(1);
+        uni.navigateTo({
+          url:'../search/search'
+        })
+      }
     }
   }
 </script>
 
 <style>
-  .content{
-    width: 100%;
+  /* .content{ */
+ /*   width: 100%;
     display: flex;
-    flex-flow: column;
-    border-bottom: 18rpx solid #F1F1F1;
-  }
-  .con-title{
-    width: 100%;
-    display: flex;
-    height: 160rpx;
-    font-size: 48rpx;
-    align-items: center;
-  }
-
-  .con-title image{
-    width: 100rpx;
-    height: 100rpx;
-    margin-left: 64rpx;
-    margin-right: 40rpx;
-  }
+    flex-flow: column; */
+/*    border-bottom: 18rpx solid #F1F1F1;
+  } */
+  
   
   .con-sear{
     width: 100%;
@@ -70,4 +60,5 @@
     left: 10rpx;
     margin-left: 64rpx;
   }
+  
 </style>

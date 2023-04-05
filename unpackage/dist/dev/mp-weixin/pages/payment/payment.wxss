@@ -115,7 +115,8 @@
   color: #03bdf6;
   text-align: center;
 }
-.setting .set.data-v-031d9d14,.done.data-v-031d9d14 {
+.setting .set.data-v-031d9d14,
+.done.data-v-031d9d14 {
   width: 200rpx;
   height: 60rpx;
   margin: 100rpx auto;

@@ -1,8 +1,9 @@
 {
   "usingComponents": {
     "carousel": "/components/carousel/carousel",
+    "welcome": "/components/welcome/welcome",
+    "unlock": "/components/unlock/unlock",
     "search": "/components/search/search",
-    "index-nav": "/components/indexNav/indexNav",
-    "uni-pop": "/components/uniPop/uniPop"
+    "index-nav": "/components/indexNav/indexNav"
   }
 }

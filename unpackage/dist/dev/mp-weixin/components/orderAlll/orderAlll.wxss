@@ -1,0 +1,53 @@
+.con .con-item {
+  display: flex;
+  height: 250rpx;
+  justify-content: space-between;
+  font-size: 28rpx;
+  padding: 44rpx 56rpx 0 64rpx;
+  box-sizing: border-box;
+  border-bottom: 2rpx solid #F1F1F1;
+}
+.con .con-item .item-fl {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+}
+.con .con-item .item-fl .orderNum {
+  width: 400rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.con .con-item .item-fl .product {
+  display: flex;
+  margin: 15rpx 0;
+}
+.con .con-item .item-fl .product .productName {
+  width: 200rpx;
+  overflow: hidden;
+  margin-right: 40rpx;
+}
+.con .con-item .item-fl .product .productNum {
+  color: #B7B5B5;
+}
+.con .con-item .item-fl .time {
+  font-size: 20rpx;
+  color: #808080;
+}
+.con .con-item .item-fr .money {
+  margin: 15rpx 0;
+}
+.con .con-item .item-fr .comment {
+  display: flex;
+  width: 170rpx;
+  height: 56rpx;
+  background-color: rgba(103, 146, 255, 0.7);
+  border-radius: 40rpx;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.con .con-item .item-fr .comment image {
+  width: 22rpx;
+  height: 22rpx;
+}
+

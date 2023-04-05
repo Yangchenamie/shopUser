@@ -2,13 +2,13 @@
   <view class="content">
     <ul>
       <li>
-        <view class="">
+        <view @click="gotoOrder">
           我的订单
         </view>
         <image src="../../static/right.png" mode=""></image>
       </li>
       <li>
-        <view class="">设置</view>
+        <view @click="gotoSettings">设置</view>
         <image src="../../static/right.png" mode=""></image>
       </li>
     </ul>
@@ -22,6 +22,18 @@
       return {
         
       };
+    },
+    methods:{
+      gotoSettings(){
+        uni.navigateTo({
+          url:'../../pages/settings/settings'
+        })
+      },
+      gotoOrder(){
+        uni.navigateTo({
+          url:'../../pages/order/order'
+        })
+      }
     }
   }
 </script>

@@ -1,24 +1,21 @@
 <template>
   <view class="content">
     <view class="content-header">
-      <view class="con-left">
-        <img src="../../static/2.jpg" alt="">
+      <view class="con-left"  @click="preview">
+        <img :src="avatarurl" alt="">
       </view>
       <view class="con-right">
         <view class="con-name">
-          大白
-        </view>
-        <view class="con-num">
-          100******86
+          {{nickname}}
         </view>
       </view>
     </view>
     <view class="content-icon">
-      <view class="icon-fl">
+      <view class="icon-fl" @click="gotoCoupons">
         <image src="../../static/money.png" alt="">
           <view class="">优惠卷</view>
       </view>
-      <view class="icon-fr">
+      <view class="icon-fr" @click="gotoIntergral">
         <image src="../../static/jifen.png" mode=""></image>
         <view class="">积分</view>
       </view>
@@ -27,12 +24,39 @@
 </template>
 
 <script>
+  import {mapState} from 'vuex'
   export default {
     name:"person-header",
     data() {
       return {
         
       };
+    },
+    computed:{
+      ...mapState('m_user',['avatarurl','nickname'])
+    },
+    methods:{
+      gotoCoupons(){
+        uni.navigateTo({
+          url:'/pages/coupons/coupons'
+        })
+      },
+      gotoIntergral(){
+        uni.navigateTo({
+          url:'/pages/Integral/Integral'
+        })
+      },
+      preview(){
+        const imgUrl = uni.getStorageSync('avatarurl')
+        let imgList=[];
+        imgList.push(imgUrl)
+        console.log(imgList);
+        uni.previewImage({
+          current:0,
+          urls:imgList,
+        })
+        console.log(2222222);
+      },
     }
   }
 </script>
@@ -64,9 +88,7 @@
   }
   .con-name{
     font-size: 40rpx;
-  }
-  .con-num{
-    font-size: 36rpx;
+    margin-top: 25rpx;
   }
   .content-icon{
     margin-top: -40rpx;
@@ -83,5 +105,10 @@
   .content-icon image{
     width: 60rpx;
     height: 60rpx;
+  }
+  .icon-fl{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
   }
 </style>

@@ -2,7 +2,16 @@
   "pages": [
     "pages/index/index",
     "pages/person/person",
-    "pages/payment/payment"
+    "pages/payment/payment",
+    "pages/search/search",
+    "pages/settings/settings",
+    "pages/order/order",
+    "pages/payWay/payWay",
+    "pages/coupons/coupons",
+    "pages/Integral/Integral",
+    "pages/exchange/exchange",
+    "pages/register/register",
+    "pages/changeNickName/changeNickName"
   ],
   "subPackages": [],
   "window": {

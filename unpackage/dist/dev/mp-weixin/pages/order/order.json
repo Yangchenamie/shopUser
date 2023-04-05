@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "我的订单",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "order-alll": "/components/orderAlll/orderAlll",
+    "comment": "/components/Comment/Comment"
+  }
+}

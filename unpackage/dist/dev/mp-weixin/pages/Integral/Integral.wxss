@@ -1,0 +1,56 @@
+.container.data-v-75f547f4 {
+  border-top: 18rpx solid #f1f1f1;
+}
+.container .header.data-v-75f547f4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-bottom: 2rpx solid #F1F1F1;
+  height: 286rpx;
+}
+.container .header .conut.data-v-75f547f4 {
+  display: flex;
+  flex-flow: column;
+}
+.container .header .conut .num.data-v-75f547f4 {
+  color: #E03030;
+  font-size: 72rpx;
+}
+.container .header .exchange.data-v-75f547f4 {
+  padding: 20rpx 54rpx;
+  border: 2rpx solid #A53131;
+}
+.container .content .title.data-v-75f547f4 {
+  padding-left: 20rpx;
+  height: 82rpx;
+  line-height: 82rpx;
+  border-bottom: 2rpx solid #F1F1F1;
+}
+.container .content .con .item.data-v-75f547f4 {
+  padding: 0 74rpx;
+  display: flex;
+  font-size: 28rpx;
+  justify-content: space-between;
+  height: 140rpx;
+  align-items: center;
+  border-bottom: 2rpx solid #F1F1F1;
+}
+.container .content .con .item .item-fl.data-v-75f547f4 {
+  display: flex;
+}
+.container .content .con .item .item-fl image.data-v-75f547f4 {
+  width: 46rpx;
+  height: 46rpx;
+}
+.container .content .con .item .item-fl .item-text.data-v-75f547f4 {
+  padding-left: 20rpx;
+}
+.container .content .con .item .item-fl .item-text .date.data-v-75f547f4 {
+  font-size: 20rpx;
+  color: #808080;
+  margin-top: 15rpx;
+}
+.container .content .con .item .item-fr.data-v-75f547f4 {
+  color: #E03030;
+}
+

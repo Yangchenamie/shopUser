@@ -1,1 +1,1 @@
-<view class="content"><view class="con-title"><image src="../../static/shoplogo.png" mode></image><view>欢迎光临</view></view><view class="con-sear"><image src="../../static/search.png" mode></image><input type="text" placeholder="搜索"/></view></view>
+<view class="content"><view class="con-sear"><image src="../../static/search.png" mode></image><input type="text" placeholder="搜索" data-event-opts="{{[['tap',[['goto',['$event']]]]]}}" bindtap="__e"/></view></view>

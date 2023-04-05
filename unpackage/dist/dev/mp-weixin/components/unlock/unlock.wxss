@@ -1,0 +1,82 @@
+.con.data-v-5eed1bc4 {
+  position: relative;
+}
+.con .content.data-v-5eed1bc4 {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 36rpx solid #f1f1f1;
+  width: 100%;
+  padding: 0 100rpx 50rpx;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+.con .content .con-item.data-v-5eed1bc4 {
+  margin-top: 60rpx;
+}
+.con .content .con-item image.data-v-5eed1bc4 {
+  width: 200rpx;
+  height: 200rpx;
+}
+.con .mask.data-v-5eed1bc4 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(68, 77, 99, 0.58);
+  display: flex;
+  flex-flow: column;
+  padding: 0 100rpx;
+  box-sizing: border-box;
+  align-items: center;
+}
+.con .mask .line.data-v-5eed1bc4 {
+  display: flex;
+  margin-top: 200rpx;
+  margin-bottom: 36rpx;
+  margin-left: -50rpx;
+}
+.con .mask .line .circle.data-v-5eed1bc4 {
+  width: 20rpx;
+  height: 20rpx;
+  background-color: #33487C;
+  border-radius: 50%;
+  margin-top: -10rpx;
+}
+.con .mask .line .border.data-v-5eed1bc4 {
+  height: 220rpx;
+  width: 64rpx;
+  border-right: 1px dashed #33487C;
+  border-top: 1px dashed #33487C;
+}
+.con .mask .tip.data-v-5eed1bc4 {
+  position: relative;
+}
+.con .mask .tip .triangle.data-v-5eed1bc4 {
+  position: absolute;
+  top: -64rpx;
+  left: 50%;
+  margin-left: -16rpx;
+  border-top: 32rpx solid transparent;
+  border-bottom: 32rpx solid #3D66CE;
+  border-left: 32rpx solid transparent;
+  border-right: 32rpx solid transparent;
+}
+.con .mask .tip .tip-text.data-v-5eed1bc4 {
+  padding: 30rpx 48rpx;
+  background-color: #3D66CE;
+  color: #FFFFFF;
+  border-radius: 20rpx;
+}
+.con .mask .tip .tip-text .unclock.data-v-5eed1bc4 {
+  font-size: 48rpx;
+}
+.con .mask .btn.data-v-5eed1bc4 {
+  padding: 20rpx 54rpx;
+  color: #FFFFFF;
+  font-size: 48rpx;
+  border: 2rpx solid #FFFFFF;
+  border-radius: 50rpx;
+  margin-top: 60rpx;
+}
+
